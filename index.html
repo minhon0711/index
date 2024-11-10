@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人檔案 - 蔡名宏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        nav {
+            background-color: #5599FF;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #000;
+        }
+
+        header h2 {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .profile {
+            background-color: #F9EBEA;
+        }
+
+        .contact {
+            background-color: #E8F8F5;
+        }
+
+        .education {
+            background-color: #FEF9E7;
+        }
+
+        .skills {
+            background-color: #E8EAF6;
+        }
+
+        .work {
+            background-color: #FFF3E0;
+        }
+
+        .activities {
+            background-color: #E1F5FE;
+        }
+
+        .skills h3, .work h3, .activities h3 {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .skill-bar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 15px;
+            margin-top: 5px;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+        }
+
+        .python { width: 80%; background-color: #0004ff; }
+        .html { width: 70%; background-color: #0004ff; }
+        .java { width: 60%; background-color: #0004ff; }
+
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-icons img {
+            width: 60px;
+            height: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>蔡名宏</h1>
+            <h2>中原大學 - 資訊管理系</h2>
+        </header>
+
+        <nav>
+            <a href="#profile">個人檔案</a>
+            <a href="#contact">聯絡資訊</a>
+            <a href="#education">學習經歷</a>
+            <a href="#skills">專業技能</a>
+            <a href="#work">工作經驗</a>
+            <a href="#activities">社團活動</a>
+            <a href="#class">課程經驗</a>
+        </nav>
+
+        <section id="profile" class="profile" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; border-radius: 8px; background-color: #F9EBEA;">
+            <img src="IMG_1953.jpg" alt="個人圖片" style="width: 150px; height: auto; margin-right: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div style="flex: 1;">
+                <h3>個人檔案</h3>
+                <p>你好，我是目前就讀中原大學資訊管理系大二的學生，蔡名宏。本身屬於活潑外向的學生，喜歡嘗試不同事物，遇到困難也會勇於挑戰絕不輕易放棄。平時喜歡打球碩和朋友一起玩桌遊，也喜歡去網路上看料理教程學習。自己本身缺點就是太鑽牛角尖了這點還需多加改善
+
+                </p>
+            </div>
+        </section>
+        
+
+        <section id="contact" class="contact">
+            <h3>聯絡資訊</h3>
+            <p>連絡電話: <a href="tel:+886966901238">＋886 0966901238</a></p>
+            <p>Email: <a href="mailto:aa0966901238@gmail.com">aa0966901238@gmail.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/minhon__otll/profilecard/?igsh=aXlldHg4YThyM2p0" target="_blank">instagram
+                    <img src="_89649395_instagram_logo_976.jpg" alt="Instagram">
+                </a>
+                <a href="https://line.me/ti/p/-IAklhDZ6t" target="_blank">line
+                    <img src="appicon_01_f9ed1cf01f.jpeg" alt="LINE">
+                </a>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <h3>學習經歷</h3>
+            <ul>
+                <li>南崁高中 - 普通科 數理專長班</li>
+                <li>中原大學 - 資訊管理系 (2020 - 現在)</li>
+            </ul>
+        </section>
+
+        
+
+        <section id="skills" class="skills">
+            <h3>專業技能</h3>
+            <h4>程式技能</h4>
+            <ul>
+                <li>Python
+                    <div class="skill-bar"><span class="python"></span></div>
+                </li>
+                <li>HTML/CSS
+                    <div class="skill-bar"><span class="html"></span></div>
+                </li>
+                <li>Java
+                    <div class="skill-bar"><span class="java"></span></div>
+                </li>
+            </ul>
+            <h4>其他技能</h4>
+            <ul>
+                <li>重型機車駕駛執照</li>
+                <li>小客車駕駛執照</li>
+                <li>經濟學修課證明</li>
+            </ul>
+            
+        </section>
+        
+    <!-- 工作經驗圖片區，圖片在左側 -->
+        <section id="work" class="work" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; border-radius: 8px; background-color: #FFF3E0;">
+            <img src="山奧屋-2280雙人套餐.jpg" alt="工作經驗圖片" style="width: 150px; height: auto; margin-right: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div style="flex: 1;">
+                <h3>工作經驗</h3>
+                <p>餐飲業 - 燒肉</p>
+                <p>起初是覺得學測完沒事做所以尋求打工，沒想到打工已經慢慢變成我生活中的一部分。在此當中，我學到了可能因為一個小動作或決策錯誤導致後面無法正常運作，且須盡到自己的責任。我也是在這時知道錢真的不好賺。</p>
+            </div>
+        </section>
+
+<!-- 社團經驗圖片區，圖片在左側 -->
+        <section id="activities" class="activities" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; border-radius: 8px; background-color: #E1F5FE;">
+            <img src="IMG_2150.JPG" alt="社團活動圖片" style="width: 150px; height: auto; margin-right: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div style="flex: 1;">
+                <h3>社團活動</h3>
+                <p>2020 - 2023</p>
+                <p>數理研究社</p>
+                <p>因為高中三年都是讀數理專長班，所以社團都是學校分配制數理研究社，但我覺得這沒什麼不好，反而讓我學到其他有趣知識。在高一二我學到了3D列印的技術，可惜疫情的關係沒有成功做出來；在高三我們學的是機器人的科技與應用，利用程式控制自己的機器人，這堂課實在獲益良多。</p>
+            </div>
+        </section>
+
+        <section id="class" class="class" style="display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; border-radius: 8px; background-color: #FFF3E0;">
+            <img src="IMG_2151.jpg" alt="工作經驗圖片" style="width: 150px; height: auto; margin-right: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div style="flex: 1;">
+                <h3>課程經驗</h3>
+                <p>管理學報告</p>
+                <p>在管學報告中我學到了分工合作的重要性，每個人都有字己善長旱不善長的地方，需要去討論如何才能安排出最適合每個人的部分。在討論過程中因為知道自己簡報部分比較不足故我會自告奮勇的上台報告，其實我個人蠻喜歡上台報告可以鍛鍊自己得表達能力以及臨場反應德能力。，其實我個人蠻喜歡上台報告可以鍛鍊自己得表達能力以及臨場反應德能力。</p>
+            </div>
+        </section>
